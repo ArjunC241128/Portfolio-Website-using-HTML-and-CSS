@@ -1,152 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arjun's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arjun's Portfolio</title>
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-        <a href="#" class="logo">Arjun's Portfolio</a>
-        <ul>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+<nav class="navbar">
+<a href="#" class="logo">Arjun's Portfolio</a>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">About Me</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact Me</a></li>
+</ul>
+</nav>
 
-    <!-- Home Section -->
-    <section class="home">
-        
-        <!-- Left Content -->
-        <div class="home-info">
-            <h1>Hi, I'm Arjun</h1>
-            <h2>Welcome to my portfolio website!</h2>
+<section id="home" class="home">
+<div class="home-info">
+<h1>Hi, I'm Arjun</h1>
+<h2>Welcome to my portfolio website!</h2>
+<p>
+I'm a passionate software developer with experience in web development, software development, and machine learning.
+I love creating innovative solutions and learning new technologies.I come from a strong academic background in engineering, where I developed a solid foundation in problem-solving, programming, and analytical thinking. 
+Over time, I have worked on various projects that helped me strengthen my understanding of both frontend and backend development, as well as data-driven approaches through machine learning.
+</p>
+ <p class="tagline">
+      "Building intelligent solutions today for a smarter tomorrow."
+    </p>
+<div class="btn-sci">
+<a href="#" class="btn">Download CV</a>
 
-            <p>
-                I'm a passionate software developer with experience in web development,
-                software development, and machine learning.
-                I love creating innovative solutions and learning new technologies.
-            </p>
+</div>
+</div>
 
-            <div class="btn-sci">
-                <a href="#" class="btn">Download CV</a>
-
-                <div class="sci">
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Right Image -->
-        <div class="home-img">
-            <div class="img-box">
-                <div class="img-item">
-                    <img src="Professional Photo.png" alt="Arjun's Photo">
-                </div>
-            </div>
-        </div>
-
-    </section>
-        <section class = "About skills">
-            <div class = "skills-info">
-                <h1>Skills</h1>
-                <p>Here are some of my skills:</p>
-                <ul>
-                    <li>Programming Languages: C, C++, Python, JavaScript, Java</li>
-                    <li>Web Development: HTML, CSS, React</li>
-                </ul>
-                <div class = "grid-container">
-                    <div class = "item">
-                        <img src = "cplusplus.svg" alt = "C++ Logo">
-                        <h3>C++</h3>
-                    </div>
-                    <div class = "item">
-                        <img src = "python.svg" alt = "Python Logo">
-                        <h3>Python</h3>
-                </div>
-                <div class = "item">
-                    <img src = "https://simpleicons.org/icons/javascript.svg" alt = "JavaScript Logo">
-                    <h3>JavaScript</h3> 
-                </div>
-                <div class = "item">
-                    <img src = "https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-svg-download-png-2945017.png?f=webp" alt = "Java Logo">
-                  <h3>Java</h3>
-                </div>
-                <div class = "item">
-                    <img src = "https://simpleicons.org/icons/html5.svg" alt = "HTML Logo">
-                    <h3>HTML5</h3>
-                </div>
-                <div class = "item">
-                    <img src = "https://simpleicons.org/icons/css.svg" alt = "CSS Logo">
-                    <h3>CSS3</h3>
-        </section>
-        <section class = "About education">
-            <div class = "education-info">
-                <h2 class = "heading">Education</h2>
-                <div class = "education">
-                <div class = "University">
-                    <div class = "year">2024 - Present</div>
-                <h3 class = "degree">Bachelor in Computer Science and Engineering</h3>
-                <p class = "university">International Islamic University Chittagong</p>
-                <p class = "description">Currently pursuing my bachelor's degree in Computer Science, where I am gaining a strong foundation in programming, algorithms, and software development. I am actively involved in various projects and extracurricular activities to enhance my skills and knowledge in the field.</p>
-            </div>
-            <div class = "College">
-                <div class = "year">2020- 2022</div>
-                <h3 class = "hsc">Higher Secondary Certificate (HSC)</h3>
-                <p class = "college">Chittagong Govt. Model College</p>
-                <p class = "description">Completed my Higher Secondary Certificate (HSC) with a focus on science subjects. During this time, I developed a strong interest in computer science and programming, which motivated me to pursue a degree in the field.</p>
-            </div>
-            <div class = "School">
-                <div class = "year">2014 - 2020</div>
-                <h3 class = "ssc">Secondary School Certificate (SSC)</h3>
-                <p class = "school">Chittagong Govt. High School</p>
-                <p class = "description">Completed my Secondary School Certificate (SSC) with a focus on science subjects. This foundation helped me develop a strong interest in science background.</p>
-            </div>
-        </div>
-    </div>
+<div class="home-img">
+<div class="img-box">
+<div class="img-item">
+<img src="Professional Photo.png" alt="Arjun's Photo">
+</div>
+</div>
+</div>
 </section>
-<section class = "About projects">
-    <div class = "projects-info">
-        <div class = "project">
-            <img src = "D:\C241128\Portfolio\Screenshot 2026-03-25 200338.png"alt = "">
-            <div class = "card">
-                <h3>University-Portal Management Sytem</h3>
-                <p>Developed a web-based management system for university operations, allowing efficient handling of student 
-                    records, course management, and administrative tasks.</p>
-                <span>Java</span><span>MySQL></span>
-            </div>
-        <div class = "project">
-            <img src = "iiuc blood bank management.png"alt = "">
-            <div class = "card">
-                <h3>IIUC Blood Bank Management System</h3>
-                <p>The IIUC Blood Bank Management System is a database-based system. It manages blood donation activities
-                     for IIUC students. The system stores donor information, blood groups, and contact details. It also keeps
-                      donation history, appointments, and blood requests. 
-                    It ensures accurate and reliable data management within the university.</p>
-                <span>Java</span><span>MySQL></span>
-            </div>
-        <div class = "project">
-             <img src = "Laptop inventory Management.png"alt = "">
-            <div class = "card">
-                <h3>Laptop Inventory Management System using C++</h3>
-                <p>Developed a desktop application for managing laptop inventory, allowing efficient tracking of stock levels, user assignments, and maintenance schedules.</p>
-                <span>Java</span><span>MySQL></span>
-            </div>
+
+<section id="skills" class="section">
+
+<div class="skills-info">
+<h2 class = "section-title">Skills</h2>
+<p>Here are some of my skills I have achieved during my academic journey:</p>
+
+<ul>
+<li>Programming Languages: C, C++, Python, JavaScript, Java</li>
+<li>Web Development: HTML, CSS, React</li>
+</ul>
+</div>
+
+<div class="grid-container">
+
+<div class="item">
+<img src="cplusplus.svg">
+<h3>C++</h3>
+</div>
+
+<div class="item">
+<img src="python.svg">
+<h3>Python</h3>
+</div>
+
+<div class="item">
+<img src="https://simpleicons.org/icons/javascript.svg">
+<h3>JavaScript</h3>
+</div>
+
+<div class="item">
+<img src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-svg-download-png-2945017.png">
+<h3>Java</h3>
+</div>
+
+<div class="item">
+<img src="https://simpleicons.org/icons/html5.svg">
+<h3>HTML5</h3>
+</div>
+
+<div class="item">
+<img src="https://simpleicons.org/icons/css.svg">
+<h3>CSS3</h3>
+</div>
+
+</div>
+<section id="skillset" class="section">
+
+  <h2 class="section-title">My Technical & Soft Skills</h2>
+
+  <div class="skillset-container">
+
+    <!-- Technical Skills -->
+    <div class="skill-category">
+      <h3>Technical Skills</h3>
+
+      <div class="skill">
+        <i class="fa-brands fa-html5"></i>
+        <span>HTML</span>
+        <progress value="90" max="100"></progress>
+      </div>
+
+      <div class="skill">
+        <i class="fa-brands fa-css3-alt"></i>
+        <span>CSS</span>
+        <progress value="85" max="100"></progress>
+      </div>
+
+      <div class="skill">
+        <i class="fa-brands fa-js"></i>
+        <span>JavaScript</span>
+        <progress value="80" max="100"></progress>
+      </div>
+
+      <div class="skill">
+        <i class="fa-brands fa-python"></i>
+        <span>Python</span>
+        <progress value="85" max="100"></progress>
+      </div>
+
+      <div class="skill">
+        <i class="fa-solid fa-code"></i>
+        <span>C / C++</span>
+        <progress value="80" max="100"></progress>
+      </div>
     </div>
+
+    <!-- Soft Skills -->
+    <div class="skill-category">
+      <h3>Soft Skills</h3>
+
+      <ul class="soft-skills">
+        <li>✔ Problem Solving</li>
+        <li>✔ Teamwork & Collaboration</li>
+        <li>✔ Communication Skills</li>
+        <li>✔ Time Management</li>
+        <li>✔ Adaptability & Learning Mindset</li>
+      </ul>
+    </div>
+
+  </div>
+
 </section>
+<section id="education" class="section">
+
+<div class="education-info">
+
+<h2 class = "section-title">Education</h2>
+
+<div class="University">
+<div class="year">2024 - Present</div>
+<h3 class="degree">Bachelor in Computer Science and Engineering</h3>
+<p class="university">International Islamic University Chittagong</p>
+<p class="description">
+Currently pursuing my bachelor's degree in Computer Science, gaining strong foundations in programming and software development.
+</p>
+</div>
+
+<div class="College">
+<div class="year">2020 - 2022</div>
+<h3 class="hsc">Higher Secondary Certificate (HSC)</h3>
+<p class="college">Chittagong Govt. Model College</p>
+<p class="description">
+Completed HSC with focus on science subjects.
+</p>
+</div>
+
+<div class="School">
+<div class="year">2014 - 2020</div>
+<h3 class="ssc">Secondary School Certificate (SSC)</h3>
+<p class="school">Chittagong Govt. High School</p>
+<p class="description">
+Completed SSC with focus on science subjects.
+</p>
+</div>
+
+</div>
+</section>
+
+<section id="interests" class="section">
+
+  <h2 class="section-title">Interests</h2>
+
+  <div class="interests-info">
+    <p>
+      I am deeply interested in exploring modern technologies and their real-world applications. 
+      My key areas of interest include web development, artificial intelligence, and machine learning. 
+      I enjoy building smart systems that can solve practical problems and improve user experiences.
+    </p>
+
+    <p>
+      Beyond coding, I like staying updated with the latest tech trends, reading about innovations, 
+      and continuously enhancing my skills. I am also interested in contributing to impactful projects 
+      that combine creativity with technology to make a meaningful difference.
+    </p>
+  </div>
+
+</section>
+
+<section id="projects" class="section">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects-info">
+
+<div class="project">
+<img src="Screenshot 2026-03-25 200338.png">
+<div class="card">
+<h3>University-Portal Management System</h3>
+<p>
+Developed a web-based system for managing student records efficiently.
+</p>
+<span>Java</span>
+<span>MySQL</span>
+</div>
+</div>
+
+<div class="project">
+<img src="iiuc blood bank management.png">
+<div class="card">
+<h3>IIUC Blood Bank Management System</h3>
+<p>
+Manages blood donation activities and donor requests.
+</p>
+<span>MySQL</span>
+</div>
+</div>
+
+<div class="project">
+<img src="Laptop inventory Management.png">
+<div class="card">
+<h3>Laptop Inventory Management System</h3>
+<p>
+Desktop application for tracking laptop inventory.
+</p>
+<span>C++</span>
+</div>
+</div>
+
+</div>
+</section>.
+  <section id="contact" class="section">
+
+  <h2 class="section-title">Contact Me</h2>
+  <center>
+  <form>
+    <table>
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="name" required></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td><label for="message">Message:</label></td>
+        <td><input type = "text" placeholder = "type your message here..." name = "message" required></td>
+      </tr> 
+      <tr>
+      </tr>
+    </table>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+ </center>
+</section>
+<section id="contact" class="section">
+  <h2 class="section-title">Connect with Me</h2>
+  <div class="contact-socials">
+    <a href="https://github.com/ArjunC241128" target="_blank" class="social-btn">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/arjun-barua-712498299/" target="_blank" class="social-btn">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://codeforces.com/profile/241128" target="_blank" class="social-btn">
+      <i class="fas fa-code"></i> Codeforces
+    </a>
+    <a href="https://www.facebook.com/arjunbarua.49" target="_blank" class="social-btn">
+      <i class="fab fa-facebook"></i> Facebook
+    </a>
+    <a href="https://www.instagram.com/arjunbarua.49" target="_blank" class="social-btn">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://www.youtube.com/@arjunbarua5047" target="_blank" class="social-btn">
+      <i class="fab fa-youtube"></i> YouTube
+    </a>
+  </div>
+</section>
+ <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Arjun Barua. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
