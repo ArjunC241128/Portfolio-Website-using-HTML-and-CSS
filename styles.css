@@ -7,10 +7,6 @@ box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 }
 
-html {
-scroll-behavior: smooth;
-}
-
 body {
 background: #1f242d;
 color: #fff;
@@ -165,7 +161,7 @@ object-fit: cover;
 }
 
 .grid-container {
-display: flex;
+display: grid;
 grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 gap: 40px;
 padding: 20px;
@@ -241,9 +237,10 @@ font-size: 1.05rem;
 .University,
 .College,
 .School {
-padding-left: 20px;
-margin-bottom: 20px;
+margin-bottom: 30px;
+padding-left: 25px;
 gap: 25px;
+position : relative;
 }
 
 .year {
@@ -260,7 +257,9 @@ font-size: 1.2rem;
 font-weight: 500;
 margin-bottom: 5px;
 }
-
+.education-info {
+  position: relative;
+}
 .university,
 .college,
 .school {
@@ -273,7 +272,26 @@ margin-bottom: 10px;
 font-size: 0.9rem;
 color: #e0e0e0;
 }
+.dot {
+  height : 15px;
+  width : 15px;
+  border : 3px solid #7cf03d;
+  border-radius : 50%;
+  position : absolute;
+  top : 5px;
+  left : 0px;
+  z-index: 2;
+}
+.liner {
+  position : absolute;
+  width: 2px;
+  top : 0px;
+  bottom: 0px;
+  left: 5px;
+  border: 2px solid #7cf03d;
+  z-index: 1;
 
+}
 .interests-info {
 max-width: 800px;
 margin: 0 auto;
@@ -331,17 +349,22 @@ font-size: 0.75rem;
 margin-right: 5px;
 } 
 
+
 .section-title {
-    text-align: center; 
+    text-align: center;
     font-size: 40px;
     color: #7cf03d;
-    margin-bottom: 30px;
+    margin-bottom: 30px;  
+    margin-top: 40px;    
 }
+
+
 .contact-socials {
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
     justify-content: center; 
+    gap: 2rem 2rem; 
+    margin-top: 20px; 
 }
 
 .social-btn {
